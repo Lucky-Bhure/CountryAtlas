@@ -1,0 +1,63 @@
+.fact-card-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    border-radius: 1rem;
+    padding: 1rem 2rem;
+    background: linear-gradient(65deg, #080509, #1a171c, #180f1b);
+    background-clip: padding-box;
+}
+
+
+.bg-green-box,
+.bg-white-box,
+.bg-orange-box,
+.bg-blue-box {
+  position: relative;
+}
+
+.bg-green-box::after,
+.bg-white-box::after,
+.bg-orange-box::after,
+.bg-blue-box::after {
+  position: absolute;
+  top: -1px;
+  bottom: -1px;
+  left: -1px;
+  right: -1px;
+  content: "";
+  z-index: -1;
+  border-radius: 1rem;
+}
+
+.bg-green-box::after {
+  background: linear-gradient(71deg, #0d1212, #3da077, #0d1212);
+}
+
+.bg-white-box::after {
+  background: linear-gradient(71deg, #121013, #b0afb0, #121013);
+}
+
+.bg-orange-box::after {
+  background: linear-gradient(71deg, #110e0e, #ff9900, #110e0e);
+}
+
+.bg-blue-box::after {
+  background: linear-gradient(71deg, #0c0a0e, #5f6fad, #0c0a0e);
+}
+
+
+.fact-card-details {
+    padding: 0.5rem 0rem;
+    display: grid;
+    gap: 0.5rem;
+    text-align: justify;
+    line-height: 1.4rem;
+}
+
+
+.fact-card-details > p > span {
+    color: rgb(138, 138, 138);
+}
+

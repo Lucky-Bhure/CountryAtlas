@@ -1,0 +1,56 @@
+.about-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2rem;
+}
+
+.about-text-container {
+    width: 45%;
+    font-size: 2.7rem;
+    text-align: center;
+}
+
+.about-country-fact-container {
+    width: 100%;
+    padding: 3rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+@media (max-width: 1024px) {
+    .about-text-container {
+        width: 60%;
+        font-size: 2.2rem;
+    }
+
+    .about-country-fact-container {
+        grid-template-columns: repeat(2, 1fr);
+        padding: 2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .about-text-container {
+        width: 75%;
+        font-size: 1.8rem;
+    }
+
+    .about-country-fact-container {
+        grid-template-columns: 1fr;
+        padding: 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .about-text-container {
+        width: 90%;
+        font-size: 1.5rem;
+    }
+
+    .about-country-fact-container {
+        padding: 1rem;
+    }
+}

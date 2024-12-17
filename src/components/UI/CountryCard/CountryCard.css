@@ -1,0 +1,41 @@
+.country-card-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    border-radius: 1rem;
+    padding: 2rem 2rem;
+    background: linear-gradient(65deg, #080509, #1a171c, #180f1b);
+    background-clip: padding-box;
+}
+
+.flag-size {
+    width: 95%;
+    height: 50%;
+    align-self: center;
+}
+
+.country-card-container > h3 {
+    margin-top: 1rem;
+}
+
+.card-details {
+    margin-top: 0.5rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
+}
+
+.read-btn {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    background-color: transparent;
+    color: white;
+    border: 1px solid #ff9900;
+}
+
+.read-btn:hover {
+    box-shadow: #ffb950 1px 1px 10px 1px;
+
+}

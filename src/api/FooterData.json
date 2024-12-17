@@ -1,0 +1,17 @@
+[
+  {
+    "icon": "MdPlace",
+    "title": "Find us",
+    "details": "Nagpur, Maharashtra"
+  },
+  {
+    "icon": "IoCallSharp",
+    "title": "Call us",
+    "details": "+91-##########"
+  },
+  {
+    "icon": "TbMailPlus",
+    "title": "Mail us",
+    "details": "luckybhure19@gamil.com"
+  }
+]
