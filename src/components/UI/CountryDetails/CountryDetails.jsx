@@ -81,7 +81,7 @@ const CountryDetails = () => {
         </div>
       )}
       <NavLink to={"/country"} className={"back-btn"}>
-        <button className={"read-btn"}>Go Back</button>
+        <button className={"read-btn back-btn"}>Go Back</button>
       </NavLink>
     </>
   );

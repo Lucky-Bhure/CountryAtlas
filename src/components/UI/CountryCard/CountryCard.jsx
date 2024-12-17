@@ -3,7 +3,6 @@ import "./CountryCard.css";
 
 const CountryCard = ({ data }) => {
   const { flags, name, population, region, capital } = data;
-  console.log(data);
   return (
     <li className="country-card-container bg-orange-box">
       <img src={flags.svg} className="flag-size" alt={flags.alt} />

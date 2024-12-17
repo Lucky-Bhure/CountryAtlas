@@ -11,31 +11,33 @@ const Contact = () => {
 
   return (
     <main>
+      <div className="contact-container">
       <h1>Contact Us</h1>
       <form action={handleSubmit} className="contact-form">
         <input
           type="text"
           name="username"
           placeholder="Enter Your Name"
-          autoComplete="false"
+          autoComplete="off"
           required
         />
         <input
           type="email"
           name="email"
           placeholder="Enter Your Email"
-          autoComplete="false"
+          autoComplete="off"
           required
         />
         <textarea
           name="message"
           placeholder="Enter Your Message"
           rows={10}
-          autoComplete="false"
+          autoComplete="off"
           required
         ></textarea>
         <button type="submit" >Send</button>
       </form>
+      </div>
     </main>
   );
 };

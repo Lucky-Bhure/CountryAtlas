@@ -52,8 +52,7 @@
 }
 
 .back-btn {
-    width: 100%;
-    padding: 0rem 4rem 1.2rem 0rem;
+    margin: 1.4rem 4rem 1.5em 0rem;
     display: flex;
     justify-content: flex-end;
 }
