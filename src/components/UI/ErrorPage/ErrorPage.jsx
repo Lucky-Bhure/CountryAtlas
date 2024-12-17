@@ -1,22 +1,25 @@
-import React from 'react'
-import { NavLink, useRouteError } from 'react-router-dom'
+import React from "react";
+import { useNavigate } from "react-router-dom";
+import "./ErrorPage.css"
 
 const ErrorPage = () => {
+    const navigate = useNavigate();
 
-    const error = useRouteError();
+    const handleGoHome = () => {
+        navigate("/");
+    };
 
-
-  return (
-    <main>
-      <h1>Oops! An error occured.</h1>
-      {error && <p>{error.data}</p>}
-      <NavLink to={"/"}>
-        <button>
-        Go Home
-        </button>
-      </NavLink>
-    </main>
-  )
-}
-
-export default ErrorPage
+    return (
+        <div className="errorpage-container">
+            <h1 className="errorCode">404</h1>
+            <h2 className="error-message">Oops! Page Not Found</h2>
+            <p className="error-description">
+                The page you are looking for might have been removed, had its name changed, or is temporarily unavailable.
+            </p>
+            <button className="home-button" onClick={handleGoHome}>
+                Go Back Home
+            </button>
+        </div>
+    );
+};
+export default ErrorPage;

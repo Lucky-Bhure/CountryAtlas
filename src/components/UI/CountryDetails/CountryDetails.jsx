@@ -1,5 +1,5 @@
 import React, { useEffect, useState, useTransition } from "react";
-import { useParams } from "react-router-dom";
+import { NavLink, useParams } from "react-router-dom";
 import { getIndividualCountryData } from "../../../api/CountryData";
 import Loader from "../Loader/Loader";
 import "./CountryDetails.css";
@@ -80,6 +80,9 @@ const CountryDetails = () => {
           </div>
         </div>
       )}
+      <NavLink to={"/country"} className={"back-btn"}>
+        <button className={"read-btn"}>Go Back</button>
+      </NavLink>
     </>
   );
 };
