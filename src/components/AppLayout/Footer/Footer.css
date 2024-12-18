@@ -52,6 +52,7 @@ footer {
 
 .link {
     color: #ff9900;
+    padding-top: 1rem;
 }
 
 @media screen and (max-width: 1020px) {
