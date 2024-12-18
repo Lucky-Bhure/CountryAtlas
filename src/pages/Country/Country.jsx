@@ -41,7 +41,7 @@ const Country = () => {
 
   if (isPending) {
     return (
-      <main>
+      <main className="height">
         <Loader />
       </main>
     );
