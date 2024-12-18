@@ -43,6 +43,7 @@ footer {
 .footer-index {
     display: flex;
     gap: 1rem;
+    padding-bottom: 1rem;
 }
 
 .footer-index > li > a {
