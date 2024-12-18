@@ -61,6 +61,7 @@ header {
         flex-direction: column;
         justify-content: center;
         gap: 1rem;
+        z-index: 2;
     }
 
     .smallindex:first-child {
