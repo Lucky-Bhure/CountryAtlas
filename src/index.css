@@ -25,7 +25,7 @@ p {
 
 main {
   width: 100%;
-  min-height: 90vh;
+  height: inherit;
   padding: 0px 10vw;
   display: flex;
   flex-direction: column;

@@ -1,6 +1,7 @@
 .country-container {
     width: 100%;
     display: flex;
+    height: inherit;
     margin: 2rem 0rem;
     padding: 2rem 4rem;
     align-items: center;
@@ -84,12 +85,14 @@
     }
 
     .country-info-container > p {
+        width: 100%;
         font-size: 1.1rem;
+        text-align: center;
     }
 
     .back-btn {
         padding: 1rem;
-        justify-content: center;
+        justify-content: end;
     }
 }
 
@@ -104,5 +107,10 @@
 
     .country-flag-image > img {
         width: 80%;
+    }
+
+    .back-btn {
+        padding: 1rem;
+        justify-content: end;
     }
 }

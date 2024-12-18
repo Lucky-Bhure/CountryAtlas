@@ -48,7 +48,7 @@ const Country = () => {
   }
 
   return (<>
-    <main>
+    <main className="height">
       <SearchFilter search={search} setSearch={setSearch} filter={filter} setFilter={setFilter} countryData={countryData} setCountryData={setCountryData}/>
 
       <ul className="countries-container">

@@ -20,7 +20,7 @@ const CountryDetails = () => {
 
   if (isPending) {
     return (
-      <main>
+      <main className="height">
         <Loader />
       </main>
     );
@@ -83,7 +83,7 @@ const CountryDetails = () => {
       <NavLink to={"/country"} className={"back-btn"}>
         <button className={"read-btn back-btn"}>Go Back</button>
       </NavLink>
-    </>
+    </  >
   );
 };
 
