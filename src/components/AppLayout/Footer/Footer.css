@@ -81,7 +81,7 @@ footer {
 
 @media screen and (max-width: 500px) {
     .footer-section {
-        flex-direction: column;
+        flex-direction: column-reverse;
         align-items: flex-start;
     }
 
